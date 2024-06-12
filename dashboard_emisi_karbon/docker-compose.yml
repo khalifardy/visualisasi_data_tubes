@@ -1,7 +1,8 @@
-version: '3'
+version: "3"
 services:
   panel:
     build: .
     ports:
       - "5006:5006"
-
+    volumes:
+      - .:/app # Memetakan direktori proyek ke /app di dalam container
