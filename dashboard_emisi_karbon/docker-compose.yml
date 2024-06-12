@@ -6,3 +6,5 @@ services:
       - "5006:5006"
     volumes:
       - .:/app # Memetakan direktori proyek ke /app di dalam container
+
+    restart: always
