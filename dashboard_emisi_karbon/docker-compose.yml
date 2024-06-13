@@ -7,4 +7,5 @@ services:
     volumes:
       - .:/app # Memetakan direktori proyek ke /app di dalam container
 
-    restart: always
+
+    #restart: always
